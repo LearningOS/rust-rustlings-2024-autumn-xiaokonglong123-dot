@@ -7,8 +7,8 @@
 fn main() {
     let x = 10;
     if x == 10 {
-        println!("x is ten!");
+        println!("x is {}!",x);
     } else {
-        println!("x is not ten!");
+        println!("x is not {}!",x);
     }
 }
