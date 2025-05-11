@@ -14,8 +14,10 @@ fn main() {
     // you've been seeing around.
     let my_first_initial = 'C';
     if my_first_initial.is_alphabetic() {
+            // 如果字符是字母，is_alphabetic() 方法将返回 true，否则返回 false。
         println!("Alphabetical!");
     } else if my_first_initial.is_numeric() {
+            //判断是否为数字 方法将返回 true，否则返回 false。
         println!("Numerical!");
     } else {
         println!("Neither alphabetic nor numeric!");
